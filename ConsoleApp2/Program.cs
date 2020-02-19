@@ -24,7 +24,7 @@ namespace ConsoleApp2
             a = Convert.ToInt32(Console.ReadLine());
             Console.Write("Другий катет (b):");
             b = Convert.ToInt32(Console.ReadLine());
-            Example1(a, b);
+            Example1(a, b);//
             Example2(a, b, Example1(a, b));
             c = Example1(a, b);
             P= Example2(a, b, Example1(a, b));
